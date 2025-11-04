@@ -1,0 +1,320 @@
+.financial-advisor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.health-score-card {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid #667eea30;
+}
+
+.health-score-display {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.health-score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: var(--score-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.score-value {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.score-status {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.issues-section,
+.recommendations-section {
+  margin-top: 20px;
+}
+
+.issues-section h4,
+.recommendations-section h4 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.issues-section ul,
+.recommendations-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.issues-section li,
+.recommendations-section li {
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+  color: #666;
+}
+
+.issues-section li::before {
+  content: "⚠️";
+  position: absolute;
+  left: 0;
+}
+
+.recommendations-section li::before {
+  content: "💡";
+  position: absolute;
+  left: 0;
+}
+
+.optimization-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.optimization-card .section {
+  margin-bottom: 25px;
+}
+
+.optimization-card .section:last-child {
+  margin-bottom: 0;
+}
+
+.optimization-card h4 {
+  color: #667eea;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.optimization-card ul,
+.optimization-card ol {
+  padding-left: 20px;
+  color: #666;
+}
+
+.optimization-card li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.optimization-card .priority {
+  background: #fff5f5;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #f56565;
+}
+
+.advisor-chat {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.advisor-chat form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.question-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.question-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.btn-ask {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-ask:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.btn-ask:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.advice-response {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.advice-response .answer {
+  margin-bottom: 15px;
+}
+
+.advice-response .answer p {
+  margin-top: 8px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.advice-response .recommendations,
+.advice-response .next-steps {
+  margin-top: 15px;
+}
+
+.advice-response ul {
+  margin-top: 8px;
+  padding-left: 20px;
+  color: #666;
+}
+
+.advice-response li {
+  margin-bottom: 6px;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.stock-recommendations {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.stocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.stock-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stock-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stock-header h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.recommendation-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.recommendation-badge.buy {
+  background: #48bb78;
+  color: white;
+}
+
+.recommendation-badge.hold {
+  background: #fbbf24;
+  color: white;
+}
+
+.recommendation-badge.sell {
+  background: #f56565;
+  color: white;
+}
+
+.stock-name {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.stock-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stock-change {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.stock-change.positive {
+  color: #48bb78;
+}
+
+.stock-change.negative {
+  color: #f56565;
+}
+
+.stock-reasons {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.stock-reasons ul {
+  margin: 5px 0 0 0;
+  padding-left: 20px;
+  color: #666;
+}
+
+.stock-reasons li {
+  margin-bottom: 4px;
+}
+
+.stock-context {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+}
+
