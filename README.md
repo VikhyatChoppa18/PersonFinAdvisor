@@ -20,7 +20,7 @@ A production-grade multi-agent AI platform for personalized financial planning, 
 
 
 <video width="100%" controls>
-  <source src="assets/Screencast from 2025-11-03 21-55-06.webm" type="video/webm">
+  <source src="https://github.com/VikhyatChoppa18/PersonFinAdvisor/blob/e4fc79173bae62bca45609d3c94da3932a67aef4/assets/Screencast%20from%202025-11-03%2021-55-06.webm" type="video/webm">
  
 </video>
 
