@@ -17,14 +17,9 @@ A production-grade multi-agent AI platform for personalized financial planning, 
 
 ## 🎥 Video Demo
 
+Watch the demo video: **[Screencast from 2025-11-03 21-55-06.webm](assets/Screencast%20from%202025-11-03%2021-55-06.webm)**
 
-
-<video width="100%" controls>
-  <source src="assets/Screencast from 2025-11-03 21-55-06.webm" type="video/webm">
- 
-</video>
-
-   ```
+> **Note:** GitHub doesn't support inline video playback. Click the link above to download or view the video in your browser.
 
 ## 📁 Architecture
 
