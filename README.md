@@ -17,7 +17,7 @@ A production-grade multi-agent AI platform for personalized financial planning, 
 
 ## 🎥 Video Demo
 
-Watch the demo video: **[Screencast from 2025-11-03 21-55-06.webm](assets/Screencast%20from%202025-11-03%2021-55-06.webm)**
+Watch the demo video: **[Screencast from 2025-11-03 21-55-06.webm](https://github.com/VikhyatChoppa18/PersonFinAdvisor/blob/6a3575934457201b638d10517a950d332a43e579/assets/Screencast%20from%202025-11-03%2021-55-06.webm)**
 
 > **Note:** GitHub doesn't support inline video playback. Click the link above to download or view the video in your browser.
 
